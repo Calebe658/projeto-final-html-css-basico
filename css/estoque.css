@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+    background-color: gray;
+}
+
+main {
+    width: 100%;
+    height: 725px;
+    background-color: black;
+}
+
+/*DEFINIÇÕES HEADER */
+#img1 {
+    width: 170px;
+    margin-bottom: 15px;
+    margin-left: 600px;
+    border-radius: 60px;
+}
+
+#img2 {
+    width: 60px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+#img3 {
+    width: 42px;
+    margin-bottom: 65px;
+    margin-left: -55px;
+}
+
+#img4 {
+    width: 50px;
+    margin-bottom: 115px;
+    margin-left: -48px;
+}
+
+#img5 {
+    width: 100px;
+    margin-bottom: 115px;
+}
+
+#img6 {
+    width: 85px;
+    margin-bottom: 65px;
+    margin-left: -97px;
+}
+
+#img7 {
+    width: 90px;
+    margin-bottom: 13px;
+    margin-left: -90px;
+}
+
+#img8 {
+    width: 90px;
+    margin-bottom: 115px;
+}
+
+#img9 {
+    width: 35px;
+    margin-bottom: 65px;
+    margin-left: -80px;
+}
+
+#img10 {
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: -42px;
+}
+
+.divLogo {
+    display: inline-block;
+    width: 800px;
+    height: 200px;
+}
+
+#divLogo1 {
+    display: inline-block;
+    width: 295px;
+    height: 200px;
+}
+
+/* DEFINIÇÕES NAV */
+.links {
+    display: inline-block;
+    width: 200px;
+}
+
+.divLinks:hover {
+    background-color: goldenrod;
+}
+
+.divLinks {
+    display: inline-block;
+    height: 30px;
+    margin-left: 50px;
+    text-align: center;
+    transition: 1.2s;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:active:hover {
+    color: whitesmoke;
+}
+
+main a {
+    color: white;
+}
+
+main a:active:hover {
+    color: darkgoldenrod;
+}
+
+/* DEFINIÇÕES MAIN */
+
+main img {
+    width: 200px;
+    box-shadow: 0px 3px 10px black;
+    display: inline-block;
+}
+
+.divCarros {
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 20px;
+    background-color: goldenrod;
+    width: 200px;
+    height: 340px;
+}
+
+.divCarros:hover {
+    zoom: 101%;
+    box-shadow: 1px 1px 10px 1px whitesmoke;
+    transition: 1.2s;
+}

@@ -1,0 +1,59 @@
+#divHistoria1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#divHistoria1 p {
+    margin-top: 15px;
+}
+
+#divHistoria2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#divHistoria3 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+#divHistoria3 img {
+    height: 90%;
+    width: 90%;
+    transition: 2s;
+    border-radius: 20px;
+}
+
+#divHistoria3:hover img {
+    box-shadow: 4px 4px 10px turquoise;
+}
+
+#divHistoria4 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+#divHistoria5 {
+    display: inline-block;
+    width: 38%;
+    margin-top: 20px;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+h3 {
+    transition: 1s;
+}
+
+.textoHistoria:hover {
+    color: darkgray;
+}
